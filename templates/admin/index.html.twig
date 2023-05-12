@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello AdminController!
+{% endblock %}
+
+{% block body %}
+	{% block contenu %}
+		<p>
+			<a href="{{path('app_logout')}}">Se deconnecter</a>
+		</p>
+		<p>Je suis que pour admin</p>
+	{% endblock %}
+
+{% endblock %}
